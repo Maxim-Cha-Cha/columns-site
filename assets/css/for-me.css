@@ -19,3 +19,8 @@
 .img-project{
   padding-right:20px ;
 }
+@media  screen  and (max-width:992px) {
+  .img-container{
+ 
+  }
+}
