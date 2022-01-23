@@ -1,0 +1,87 @@
+.position-center{
+  justify-content: center;
+  margin: 100px 0 61px;
+}
+.text-about-me{
+  text-align: center;
+}
+.about-me-background{
+  width: 100%;
+  height: 250px;
+  background-color: var(--secondary-color);
+}
+.img-container{
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0 100px;
+ 
+}
+.img-project{
+  padding-right:20px ;
+}
+.skill-grey{
+  background-color: var(--text-color);
+  height: 4px;
+  width: 445px;
+}
+.skill-blue{
+  background-color: var(--secondary-color);
+  height: 4px;
+  width: 350px;
+}
+.skill-margin{
+  margin: 10px;
+}
+.my-skills{
+  margin-top: 126px;
+}
+.img-I{
+  width: 555px;
+  height: 450px;
+}
+
+@media screen and (max-width:1200px) {
+  .img-I{
+    width: 485px;
+    height: 380px;
+  }
+}
+@media  screen  and (max-width:991px) {
+  .about-me-background{
+    width: 100%;
+    height:360px;
+  }
+  .img-project{
+    width: 33px;
+    height: 30px;
+    padding-right: 5px;
+  }
+  .text-white-h3{
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+.img-container{
+margin: 100px 0 0;
+}
+.my-skills{
+  margin-top: 60px;
+} 
+}
+@media screen and (max-width: 768px){
+  .about-me-background{
+    height: auto;
+  }
+  .img-container{
+    margin: 30px 0 10px 0;
+    }  
+    .img-I{
+      width: 277.5px;
+      height: 226px;
+    }
+    .skill-grey{
+      width: 100%;
+    }
+    .skill-blue{
+      width: 70%;
+    }
+}
